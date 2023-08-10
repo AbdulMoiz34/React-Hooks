@@ -1,0 +1,36 @@
+.validate {
+    display: inline-block;
+    padding: 4px 15px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: larger;
+    margin: 0 0 0 10px;
+}
+
+.valid {
+    background-color: rgb(4, 151, 4);
+}
+
+.inValid {
+    background-color: red;
+}
+
+input {
+    padding: 6px 7px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    display: block;
+}
+
+.heading {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
